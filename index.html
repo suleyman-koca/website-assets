@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIP KURS | Yeni Nesil Eğitim Platformu</title>
+    
+    <style>
+        /* SIFIRLAMA VE GENEL AYARLAR */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            /* VIP hissiyatı veren derin lacivert gradient arka plan */
+            background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);
+            color: #ffffff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* ORTA KUTU (CAM EFEKTİ) */
+        .container {
+            max-width: 700px;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.05); /* Yarı saydam */
+            padding: 60px 40px;
+            border-radius: 20px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.3);
+            border: 1px solid rgba(255,255,255,0.1);
+            backdrop-filter: blur(10px); /* Apple tarzı cam bulanıklığı */
+        }
+
+        /* LOGO KISMI */
+        .logo {
+            font-size: 52px;
+            font-weight: 900;
+            color: #d4af37; /* VIP Gold Rengi */
+            letter-spacing: 4px;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+        }
+
+        .subtitle {
+            font-size: 18px;
+            color: #a8b2d1;
+            margin-bottom: 40px;
+            font-weight: 400;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+        }
+
+        /* AÇIKLAMA */
+        .description {
+            font-size: 18px;
+            line-height: 1.7;
+            margin-bottom: 40px;
+            color: #e2e8f0;
+        }
+
+        /* BUTON */
+        .contact-btn {
+            display: inline-block;
+            padding: 15px 40px;
+            background-color: transparent;
+            color: #d4af37;
+            border: 2px solid #d4af37;
+            border-radius: 30px;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: bold;
+            letter-spacing: 1px;
+            transition: all 0.3s ease;
+            margin-bottom: 30px;
+        }
+
+        .contact-btn:hover {
+            background-color: #d4af37;
+            color: #0f2027; /* Üzerine gelince lacivert yazı, altın arka plan */
+            box-shadow: 0 0 20px rgba(212, 175, 55, 0.5);
+        }
+
+        /* YATIRIMCI NOTU (İNCE SATIŞ TAKTİĞİ) */
+        .investor-note {
+            margin-top: 40px;
+            padding-top: 25px;
+            border-top: 1px solid rgba(255,255,255,0.1);
+            font-size: 13px;
+            color: #94a3b8;
+            line-height: 1.6;
+        }
+
+        .investor-note strong {
+            color: #d4af37;
+        }
+
+        .investor-note a {
+            color: #ffffff;
+            font-weight: bold;
+            text-decoration: none;
+            border-bottom: 1px dashed #d4af37;
+            padding-bottom: 2px;
+        }
+
+        .investor-note a:hover {
+            color: #d4af37;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="logo">VIP KURS</div>
+        <div class="subtitle">Yeni Nesil Eğitim Ekosistemi</div>
+
+        <p class="description">
+            Türkiye'nin en seçkin ve nitelikli eğitim platformu olmak için altyapı çalışmalarımız büyük bir titizlikle devam ediyor.<br><br>
+            Çok yakında alanında uzman eğitmenler ve premium içeriklerle karşınızdayız.
+        </p>
+
+        <a href="mailto:senin.email@adresin.com" class="contact-btn">Bize Ulaşın</a>
+
+        <div class="investor-note">
+            <strong>Yatırımcı Bilgilendirmesi:</strong> Bu premium alan adı projelendirme aşamasındadır. Marka hakları ve alan adı (vipkurs.com) için gelecek <u>ciddi satın alma teklifleri</u> veya proje ortaklıkları değerlendirilecektir. Teklif vermek için <a href="mailto:senin.email@adresin.com">iletişime geçebilirsiniz.</a>
+        </div>
+    </div>
+
+</body>
+</html>
